@@ -14,6 +14,7 @@
 {
 
     background-color: #007ee5;
+    padding: 10px  20px;
 }
 ul
 { 
@@ -26,30 +27,43 @@ ul
  }
  .fa-github
  {
-    background-color: #007ee5;
-    color:white;
-    --fa-border-user:none;
+    background-color:white;
+    color: #007ee5;
+    --fa-border-github:2px solid black; 
  }
  .fa-user
  {
     background-color: #007ee5;
     color:white;
-    --fa-border-user:none;
+    
  }
  .main-nav
  {
  display:flex;
  align-items:center;
  justify-content:space-between ;
- height:60px;
- padding:20px 0;
+ /* height:60px; */
+ /* padding:20px 0; */
  font-size: 13px; 
  }
  .main-nav .logo
 {
-    width:110px;
+    width: 110px;
+    position:relative;
+    left: 20px;
+    
 }
 .main-nav ul{
 
     display:flex;
+}
+.main-nav ul.main-menu
+{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.main-nav ul.right-menu h3{
+    text-decoration: none;
+    
 }
